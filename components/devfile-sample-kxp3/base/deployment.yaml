@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-kxp3
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/abhindas-tenant/devfile-sample/devfile-sample-kxp3@sha256:92d8de84ad4a62ae539e7b2932625c0238e487d16add1624e4d6bc4ed4bbf056
+      - image: quay.io/redhat-user-workloads-stage/abhindas-tenant/devfile-sample/devfile-sample-kxp3@sha256:2398b694a58a308bd7430720392cca8148ef6146b6c342ef0a402eeefcf22a98
         name: my-nodejs
         ports:
         - containerPort: 3001
